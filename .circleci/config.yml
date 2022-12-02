@@ -138,7 +138,7 @@ workflows:
       - linting-code
       - build-image:
           requires: [linting-code]
-      - deploy-infrastructure:
-          requires: [build-image]
-      - config-infrastructure:
-          requires: [deploy-infrastructure]
+      # - deploy-infrastructure:
+      #     requires: [build-image]
+      - config-infrastructure
+          # requires: [deploy-infrastructure]
