@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: $AWS_ECR/project5:latest
+        image: 263335751653.dkr.ecr.us-east-1.amazonaws.com/project5:latest
         ports:
           - name: web
             containerPort: 80
