@@ -130,7 +130,7 @@ jobs:
           cluster-name: k8s-demo
           install-kubectl: true
       - kubernetes/create-or-update-resource:
-          resource-file-path: infrastructure/deployment.yaml
+          resource-file-path: infrastructure/deployment.yml
           show-kubectl-command: true    
 workflows:
   default:
