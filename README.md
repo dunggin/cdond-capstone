@@ -1,2 +1,1 @@
-# cdond-capstone
-Udacity Cloud Devops Engineer - Capstone project
+# UDACITY CLOUD DEVOPS ENGINEER - CAPSTONE PROJECT
