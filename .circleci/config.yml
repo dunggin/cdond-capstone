@@ -140,5 +140,5 @@ workflows:
       #     requires: [linting-code]
       # - deploy-infrastructure:
       #     requires: [build-image]
-      - config-infrastructure
+      # - config-infrastructure
           # requires: [deploy-infrastructure]
